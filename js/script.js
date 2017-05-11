@@ -34,5 +34,8 @@
     .jcarouselPagination();
   });
 
-  
+  $(function() {
+    $(".chosen-select").chosen();
+  });
+
 })(jQuery);

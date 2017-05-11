@@ -1,14 +1,107 @@
-/*body {
-  background: #F0EFE7;
+* {
   margin: 0;
   padding: 0;
-  font: 15px/1.5 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #4E443C;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
 }
 
-.wrapper {
-  max-width: 620px;
-  padding: 0 20px 40px 20px;
-  margin: auto;
-}*/
+/* Carusel */
+
+.wrapper-punkt1 {
+  background-color: #ccc;
+  padding: 30px 0;
+}
+
+.jcarousel-wrapper {
+  margin: 20px auto;
+  position: relative;
+  border: 5px solid #fff;;
+  width: 600px;
+  height: 400px;
+  box-shadow: 0 0 15px #000;
+}
+
+.jcarousel {
+  position: relative;
+  overflow: hidden;
+}
+
+.jcarousel ul {
+  width: 20000em;
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.jcarousel li {
+  float: left;
+}
+
+/* Carousel Controls */
+
+.jcarousel-control-prev,
+.jcarousel-control-next {
+  position: absolute;
+  top: 190px;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  background: rgba(169, 169, 169, .9);
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 0 0 1px #000;
+  font: 36px/40.5px Arial, sans-serif;
+}
+
+.jcarousel-control-prev {
+  left: 10px;
+}
+
+.jcarousel-control-next {
+  right: 10px;
+}
+
+.jcarousel-control-prev.inactive,
+.jcarousel-control-next.inactive {
+  opacity: .3;
+  cursor: default;
+}
+
+.jcarousel-control-prev:hover,
+.jcarousel-control-next:hover {
+  background: rgba(128, 128, 128, .9);
+}
+
+/* Carousel Pagination */
+
+.jcarousel-pagination {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.jcarousel-pagination a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 14px;
+  min-width: 14px;
+  background: #fff;
+  color: #000;
+  padding: 3px;
+  text-align: center;
+  margin-right: 2px;
+  opacity: .75;
+}
+
+.jcarousel-pagination a.active {
+  background: rgba(169, 169, 169, .9);
+  color: #000;
+  opacity: 1;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+}
+
+/* Select */
+
+.wrapper-punkt2 {
+  
+}

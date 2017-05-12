@@ -134,8 +134,9 @@
   padding: 30px 0;
 }
 
-.wrapper-checkbox {
-
+.wrapper-checkbox form {
+  margin: 50px;
+  padding: 50px;
 }
 
 .niceCheck {

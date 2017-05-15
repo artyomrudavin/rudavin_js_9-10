@@ -8,7 +8,7 @@
 </head>
 <body>
 
-  <div class="wrapper-punkt1">
+  <section class="punkt1">
 
     <div class="jcarousel-wrapper">
       <div class="jcarousel">
@@ -25,9 +25,9 @@
       <p class="jcarousel-pagination"></p>
     </div>
 
-  </div>
+  </section>
 
-  <div class="wrapper-punkt2">
+  <section class="punkt2">
 
     <div class="wrapper-select">
       <label for="choosen">Select Choosen</label>
@@ -57,94 +57,108 @@
       </select>
     </div>
 
-  </div>
+  </section>
 
-  <div class="wrapper-punkt3">
+  <section class="punkt3">
 
-    <div class="wrapper-checkbox">
+    <div class="checkboxJquery">
       <form action="#">
         <div>
-          <label for="ch1">label 1</label>
-          <input type="checkbox" class="niceCheck" id="ch1" tabindex="1" />
-        </div>
-        <div>
-          <label for="ch2">label 2</label>
-          <input type="checkbox" class="niceCheck" checked="checked" id="ch2" tabindex="2" value="2" />
-        </div>
-        <div>
-          <label for="ch3">label 3</label>
-          <input type="checkbox" class="niceCheck" id="ch3" checked="checked" disabled="disabled" />
-        </div>
-      </form>
+         <label for="ch1">label 1</label>
+         <span class="niceCheck niceChecked">
+           <input type="checkbox" id="ch1" tabindex="1" />
+         </span>
+       </div>
 
-    </div>
+       <div>
+         <label for="ch2">label 2</label>
+         <span class="niceCheck niceChecked">
+          <input type="checkbox" checked="checked" id="ch2" tabindex="2" value="2" />
+        </span>
+      </div>
 
+      <div>
+        <label for="ch3">label 3</label>
+        <span class="niceCheck niceCheckedDisabled">
+          <input type="checkbox" id="ch3" checked="checked" disabled="disabled" />
+        </span>
+      </div>
+    </form>
   </div>
 
-  <div class="wrapper-punkt4">
-    <div class="wrapper-nav">
-      <nav>
-        <ul class="menu">
-          <li>
-            <a href="">Nav 1</a>
-          </li>
-          <li>
-            <a href="">Nav 2</a>
-          </li>
-          <li class="dropdown">
-            <a href="">Nav 3</a>
-            <ul class="submenu">
-              <li><a href="">Nav 3.1</a></li>
-              <li><a href="">Nav 3.2</a></li>
-              <li><a href="">Nav 3.3</a></li>
-              <li class="dropdown">
-                <a href="">Nav 3.4</a>
-                <ul class="submenu">
-                  <li><a href="">Nav 3.4.1</a></li>
-                  <li class="dropdown">
-                    <a href="">Nav 3.4.2</a>
-                    <ul class="submenu">
-                      <li><a href="">Nav 3.4.2.1</a></li>
-                      <li><a href="">Nav 3.4.2.2</a></li>
-                      <li><a href="">Nav 3.4.2.3</a></li>
-                      <li><a href="">Nav 3.4.2.4</a></li>
-                      <li><a href="">Nav 3.4.2.5</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="">Nav 3.4.3</a></li>
-                  <li><a href="">Nav 3.4.4</a></li>
-                  <li><a href="">Nav 3.4.5</a></li>
-                </ul>
-              </li>
-              <li><a href="">Nav 3.5</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="">Nav 4</a>
-          </li>
-          <li>
-            <a href="">Nav 5</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-
+  <div class="checkboxCss">
+    <form action="#">
+      <input class="testCss" type="checkbox" name="testCss" id="testCss">
+      <label class="testCss" for="testCss">Checkbox</label>
+    </form>
   </div>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.js"
-  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-  crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
-  integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
-  crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/color/jquery.color-2.1.2.js"
-  integrity="sha256-1Cn7TdfHiMcEbTuku97ZRSGt2b3SvZftEIn68UMgHC8="
-  crossorigin="anonymous"></script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-  <script src="js/jquery.jcarousel.js"></script>
-  <script src="js/chosen.jquery.js"></script>
-  <script src="js/jquery.checkbox.js"></script>
-  <script src="js/script.js"></script>
-  <script src="js/menu.js"></script>
+</section>
+
+<section class="punkt4">
+  <div class="wrapper-nav">
+    <nav>
+      <ul class="menu">
+        <li>
+          <a href="">Nav 1</a>
+        </li>
+        <li>
+          <a href="">Nav 2</a>
+        </li>
+        <li class="dropdown">
+          <a href="">Nav 3</a>
+          <ul class="submenu">
+            <li><a href="">Nav 3.1</a></li>
+            <li><a href="">Nav 3.2</a></li>
+            <li><a href="">Nav 3.3</a></li>
+            <li class="dropdown">
+              <a href="">Nav 3.4</a>
+              <ul class="submenu">
+                <li><a href="">Nav 3.4.1</a></li>
+                <li class="dropdown">
+                  <a href="">Nav 3.4.2</a>
+                  <ul class="submenu">
+                    <li><a href="">Nav 3.4.2.1</a></li>
+                    <li><a href="">Nav 3.4.2.2</a></li>
+                    <li><a href="">Nav 3.4.2.3</a></li>
+                    <li><a href="">Nav 3.4.2.4</a></li>
+                    <li><a href="">Nav 3.4.2.5</a></li>
+                  </ul>
+                </li>
+                <li><a href="">Nav 3.4.3</a></li>
+                <li><a href="">Nav 3.4.4</a></li>
+                <li><a href="">Nav 3.4.5</a></li>
+              </ul>
+            </li>
+            <li><a href="">Nav 3.5</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Nav 4</a>
+        </li>
+        <li>
+          <a href="">Nav 5</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+</section>
+
+<script src="https://code.jquery.com/jquery-3.2.1.js"
+integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/color/jquery.color-2.1.2.js"
+integrity="sha256-1Cn7TdfHiMcEbTuku97ZRSGt2b3SvZftEIn68UMgHC8="
+crossorigin="anonymous"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="js/jquery.jcarousel.js"></script>
+<script src="js/chosen.jquery.js"></script>
+<script src="js/jquery.checkbox.js"></script>
+<script src="js/script.js"></script>
+<script src="js/menu.js"></script>
 </body>
 </html>

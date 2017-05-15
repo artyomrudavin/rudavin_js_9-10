@@ -5,7 +5,7 @@
 
 /* Carusel */
 
-.wrapper-punkt1 {
+.punkt1 {
   background-color: #ccc;
   padding: 30px 0;
 }
@@ -102,7 +102,7 @@
 
 /* Select */
 
-.wrapper-punkt2 {
+.punkt2 {
   background-color: #FAFAFA;
   padding: 30px 0;
 }
@@ -128,15 +128,16 @@
 
 /* Checkbox jQuery */
 
-.wrapper-punkt3 {
-  height: 300px;
+.punkt3 {
+  display: flex;
+  justify-content: center;
+  height: 200px;
   background-color: #ccc;
   padding: 30px 0;
 }
 
-.wrapper-checkbox form {
+.checkboxJquery form {
   margin: 50px;
-  padding: 50px;
 }
 
 .niceCheck {
@@ -150,20 +151,45 @@
 .niceChecked {
   background-position: 0 -17px;
 }
+
 .niceCheck input {
-  margin-left: -100px;
-}
-.niceCheckDisabled {
-  background-image: url(../img/checkbox-disabled.png);
+  display: none;
 }
 
 /* Checkbox CSS */
 
+.checkboxCss {
+  margin: 50px;
+}
 
+input.testCss {
+  /*position: absolute;*/
+  /*clip: rect(0, 0, 0, 0);*/
+  display: none;
+}
+
+
+label.testCss {
+  cursor: pointer;
+}
+
+label.testCss:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 6px;
+  width: 17px;
+  height: 17px;
+  background: url(../img/checkbox.png);
+}
+
+input.testCss:checked + label.testCss:after {
+  background-position: 0 -17px;
+}
 
 /*  Menu  */
 
-.wrapper-punkt4 {
+.punkt4 {
   background-color: #FAFAFA;
   padding: 30px 0;
   height: 400px;

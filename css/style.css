@@ -170,7 +170,7 @@
 }
 
 .wrapper-nav {
-  background-color: rgb(255,100,100);
+  background-color: rgb(255, 100, 100);
   padding: 10px 0;
 }
 
@@ -191,7 +191,7 @@ nav ul li {
 }
 
 nav li ul {    
-  background-color: rgb(225,75,75);
+  background-color: rgb(255, 100, 100); /* rgb(225, 75, 75); */
   position: absolute;
   left: 0;
   top: 40px; 
@@ -230,7 +230,7 @@ nav a:active {
 }
 
 nav li li a {
-  border-bottom: solid 1px rgb(200,50,50);
+  border-bottom: solid 1px rgb(200, 50, 50);
   margin: 0 10px;
   padding: 0;
 }

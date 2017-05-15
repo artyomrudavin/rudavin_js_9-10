@@ -126,7 +126,7 @@
   width: 100%;
 }
 
-/* Checkbox */
+/* Checkbox jQuery */
 
 .wrapper-punkt3 {
   height: 300px;
@@ -157,12 +157,16 @@
   background-image: url(../img/checkbox-disabled.png);
 }
 
+/* Checkbox CSS */
+
+
+
 /*  Menu  */
 
 .wrapper-punkt4 {
   background-color: #FAFAFA;
   padding: 30px 0;
-  height: 300px;
+  height: 400px;
 }
 
 .wrapper-nav {

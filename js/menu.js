@@ -17,16 +17,16 @@ $(function() {
 		}
 		);
 
-	$('.menu li')
+	$('.menu a').on('click', function(e) {
+		e.preventDefault()
+	});
+
+	$('.menu a')
 	.mousedown(function() {
 		$(this).css('color', 'rgb(255, 255, 50)');
 	})
 	.mouseup(function() {
 		$(this).css('color', 'rgb(0, 0, 0)');
-	});
-
-	$('.menu a').on('click', function(e) {
-		e.preventDefault()
 	});
 
 });
